@@ -1,0 +1,5 @@
+http://localhost:3000  
+Es la ruta principal o raíz. Normalmente muestra la página de inicio o un mensaje básico como “Bienvenido al servidor”.
+http://localhost:3000/saludo lo que ocurre es que me lleva a una ruta especifica y sale un  saludo
+http://localhost:3000/mensaje/juan  
+Aquí se usa un parámetro dinámico (juan). El servidor recibe ese nombre y responde con un mensaje personalizado, como: “Hola Juan, este es tu mensaje”.

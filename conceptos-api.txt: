@@ -1,0 +1,12 @@
+La ruta app.post('/reporte', ...) recibe solicitudes POST en la dirección /reporte.
+
+El servidor espera que el cliente envíe un objeto con un campo mensaje dentro del cuerpo de la petición.
+
+Luego responde en formato JSON confirmando que el reporte fue recibido y devolviendo el mismo mensaje enviado.
+Esta ruta puede servir para que los miembros de una comunidad envíen reportes o avisos:
+
+Reportar problemas locales: fallas de servicios, daños en espacios públicos, necesidades urgentes.
+
+Registrar actividades: comentarios sobre eventos, propuestas o sugerencias.
+
+Comunicación rápida: cada reporte queda almacenado y puede ser revisado por los administradores.
